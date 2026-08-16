@@ -54,7 +54,7 @@ export const createCertificate = async (req, res) => {
 
     // Correct PDF URL
     const downloadUrl =
-      `http://localhost:${process.env.PORT}/certificates/certificate-${certificateId}.pdf`;
+  `https://codeprep-backend-capy.onrender.com/certificates/certificate-${certificateId}.pdf`;
 
     // Send response
     res.status(201).json({
